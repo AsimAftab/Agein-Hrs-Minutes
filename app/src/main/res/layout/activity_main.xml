@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CALCULATE YOUR"
+        android:textAlignment="center"
+        android:textColor="@color/textviewcolorlightgreen"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundedcorner"
+        android:padding="10dp"
+        android:text="AGE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="In Hours &amp; Minutes"
+        android:textAlignment="center"
+        android:textColor="@color/textviewcolorlightgreen"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttondatepicker"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/top"
+        android:shadowRadius="15"
+        android:text="Select your Birth Date"
+        android:textColor="@color/textbelowbutton"
+        android:textStyle="bold"
+        app:cornerRadius="15dp" />
+    <TextView
+        android:id="@+id/textViewselecteddate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="31/05/1984"
+        android:textAlignment="center"
+        android:textColor="@color/textviewcolorlightgreen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textAlignment="center"
+        android:textColor="@color/textbelowbutton"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewminutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hrs:0 hrs/Minutes:0 min"
+        android:textAlignment="center"
+        android:textColor="@color/textviewcolorlightgreen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewtilldate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="In hours,minutes till date"
+        android:textAlignment="center"
+        android:textColor="@color/textbelowbutton"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
