@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     val selectedDateinMinutes = thedate.time / 60000
                     val currentdate = sdf.parse(sdf.format(System.currentTimeMillis()))
                     val selectedDateinhrs = thedate.time/ 60000/60
-                    //val currentdatehr = sdf.parse(sdf.format(System.currentTimeMillis()))
+
                     currentdate?.let {  //it will run code only when date is not empty
                         val currentdateinminutes = currentdate.time / 60000
                         val currentdatehr = currentdate.time/60000/60
