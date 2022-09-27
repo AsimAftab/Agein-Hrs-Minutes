@@ -52,6 +52,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/top"
         android:shadowRadius="15"
+        android:padding="10dp"
         android:text="Select your Birth Date"
         android:textColor="@color/textbelowbutton"
         android:textStyle="bold"
