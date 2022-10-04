@@ -1,2 +1,2 @@
 # Agein-Hrs-Minutes
-This program converts the time into hrs &amp; minutes from selected date to current date.
+This program takes the time from a selected date and converts it into minutes and hours. It's my second project that I worked on while learning Kotlin.
